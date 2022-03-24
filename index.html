@@ -10,33 +10,40 @@
 <body>
     
     <!-- Header -->
-    <header>
+    <header class="h-30">
         <nav>
-            <ul class = "nav-flex">
+            <ul class = "nav-flex" style="font-size: 2rem">
                 <li class = "nav-flex_item"><a href = "#home">HOME</a></li>
                 <li class = "nav-flex_item"><a href = "#about">ABOUT</a></li>
                 <li class = "nav-flex_item"><a href = "#products">PRODUCTS</a></li>
                 <li class = "nav-flex_item"><a href = "#contact">CONTACT</a></li>
-                
+                <h1>CARA</h1>
+                <img src="UX-HTML-CSS/icons8-pottery-96.png">
+                <h1>CARA</h1>
+                <a href="#search"><img class="search-glass" src="UX-HTML-CSS/1200px-Google_Magnifying_Glass.svg.png"></li><a/>
+                <a href="#cart">CART(0)</a>
             </ul>
             
         </nav>
-        <h1>CARA<img src="UX-HTML-CSS/icons8-pottery-96.png">CARA
-        <div class="search-glass">
-            <a><img class="search-glass" src="UX-HTML-CSS/1200px-Google_Magnifying_Glass.svg.png">CART(0)</h1><a/>
-        </div>
+        
     </header> 
     <!-- Main -->   
     <main>
         <section id="home">
-            <div>
-                <img src="UX-HTML-CSS/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg">
-                <p>CERAMICS CRAFTED BY HAND...</p>
-                <P> ...FROM THE GROUND UP</P>
+            <div class="home-image">
+                <div class="container" style="top: 200px">
+                    <h1 style="font-size: 5rem">CERAMICS</h1> 
+                    <h1 style="font-size: 5rem">CRAFTED</h1>
+                    <h1 style="font-size: 5rem">BY HAND...</h1>
+                </div>
+                <div class="container-2" style="top: 200px">
+                    <h1 style="font-size: 5rem">...FROM THE</h1> 
+                    <h1 style="font-size: 5rem">GROUND UP</h1>
+                </div>
             </div>
         </section>
         <section id="about">
-            <h2>ABOUT US</h2> 
+            <h1>ABOUT US</h1> 
                 <div>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
                         ut labore et dolore magna aliqua. Neque laoreet suspendisse interdum consectetur libero id
@@ -67,14 +74,14 @@
                 </div>     
         </section>
         <section id="products">
-            <h2>Products</h2>
+            <h1>Products</h1>
                 <div>
                     <div>
                         <a><img src="UX-HTML-CSS/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt=""></a>
                     </div>
                     <div>
                         <div>
-                            <h3>MUNDO BOWLS</h3>
+                            <h2>MUNDO BOWLS</h2>
                         </div>
                         <div>
                             <p>Tincidunt praesent semper feugiat nibh
@@ -92,7 +99,7 @@
                     </div>
                     <div>
                         <div>
-                            <h3>NATUREZA VASE</h3>
+                            <h2>NATUREZA VASE</h2>
                         </div>
                         <div>
                             <p>Tincidunt praesent semper feugiat nibh
@@ -110,7 +117,7 @@
                     </div>
                     <div>
                         <div>
-                            <h3>FEIRA BOWLS</h3>
+                            <h2>FEIRA BOWLS</h2>
                         </div>
                         <div>
                             <p>Tincidunt praesent semper feugiat nibh
@@ -128,7 +135,7 @@
                     </div>
                     <div>
                         <div>
-                            <h3>NATUREZA POTS</h3>
+                            <h2>NATUREZA POTS</h2>
                         </div>
                         <div>
                             <p>Tincidunt praesent semper feugiat nibh
@@ -146,7 +153,7 @@
                     </div>
                     <div>
                         <div>
-                            <h3>PEDRA VASE</h3>
+                            <h2>PEDRA VASE</h2>
                         </div>
                         <div>
                             <p>Tincidunt praesent semper feugiat nibh
@@ -164,7 +171,7 @@
                     </div>
                     <div>
                         <div>
-                            <h3>VIAJA POTS</h3>
+                            <h2>VIAJA POTS</h2>
                         </div>
                         <div>
                             <p>Tincidunt praesent semper feugiat nibh
@@ -182,7 +189,7 @@
                     </div>
                     <div>
                         <div>
-                            <h3>SERVICO PLATES</h3>
+                            <h2>SERVICO PLATES</h2>
                         </div>
                         <div>
                             <p>Tincidunt praesent semper feugiat nibh
@@ -200,7 +207,8 @@
                     </div>
                     <div>
                         <div>
-                            <h3>CAMPEÃO VASE</h3>
+
+                            <h2>CAMPEÃO VASE</h2>
                         </div>
                         <div>
                             <p>Tincidunt praesent semper feugiat nibh
@@ -218,7 +226,7 @@
                     </div>
                     <div>
                         <div>
-                            <h3>TROCA BOWLS</h3>
+                            <h2>TROCA BOWLS</h2>
                         </div>
                         <div>
                             <p>Tincidunt praesent semper feugiat nibh
@@ -236,13 +244,13 @@
                 </div>
         </section>      
         <section id="contact">
-            <h2>CONTACT US</h2>
-            <form action="/action_page.php">
-                <label for="email">EMAIL</label><br>
-                <input type="email" id="email" email="email" value=""><br>
-                <label for="message">MESSAGE</label><br>
-                <input type="text" id="message" message="message" value=""><br><br>
-                <button>SEND</button>
+            <h1>CONTACT US</h1>
+            <form action="/action_page.php" style="margin-left: 20px">
+                <label for="email" style="font-size: 2rem;">EMAIL</label><br>
+                <input type="email" id="email" email="email" value="" style="width: 900px;"><br>
+                <label for="message"style="font-size: 2rem;">MESSAGE</label><br>
+                <input type="text" id="message" message="message" value="" style="width: 900px; height: 200px;"><br><br>
+                <button style="margin-left: 860px;">SEND</button>
               </form> 
             
         </section>
