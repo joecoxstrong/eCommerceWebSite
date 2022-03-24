@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0%;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.search-glass {
+  width: 25px;
+  height: 25px;
+}
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} */
+/* .nav-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-flex_item {
+    display: flex;
+    flex-direction: row;
+} */
